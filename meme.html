@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #f1c40f;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 100px 20px 20px;
+        }
+
+        .icon {
+            font-size: 48px;
+            margin: 20px;
+            color: #f1c40f;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .icon:hover {
+            transform: scale(1.2); 
+        }
+
+        .content {
+            max-width: 800px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .rectangle {
+            width: 80%;
+            height: 200px;
+            background-color: #444;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f1c40f;
+            font-size: 18px;
+            margin: 40px 0;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .image {
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">MemePage</div>
+        <div class="nav-links">
+            <a href="#">Accueil</a>
+            <a href="#">Galerie</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Welcome on Meme Page</h1>
+        <div class="content">
+            <p>Scroll down to see more content !!!</p>
+        </div>
+        <div class="rectangle">
+            <p> New upd soon </p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-laugh"></i>
+        </div>
+        <div class="icon">
+            <i class="fas fa-smile-wink"></i>
+        </div>
+        <div class="icon">
+            <i class="fas fa-grin-beam"></i>
+        </div>
+        <div class="content">
+        </div>
+        <div class="image-container">
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 1">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 2">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 3">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 4">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 5">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 6">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 7">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 8">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 9">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 10">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 11">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 12">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 13">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 14">
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/150" alt="Meme 15">
+            </div>
+        </div>
+        
+        <div class="icon">
+            <i class="fas fa-grin-squint-tears"></i>
+        </div>
+    </div>
+</body>
+</html>
+
